@@ -7,14 +7,23 @@ body{
     text-align:center;
 }
 
-ul{
+ul .index{
     list-style:none;
+    text-align:center;
+}
+
+ul{
+    text-align: start;
+}
+
+ol{
+    text-align:start;
 }
 
 h1{
     font-size:35px;
-    color:white;
-    background:rgb(211, 67, 67);
+    color:#ffffff;
+    background:#d34343;
 }
 
 a{
@@ -26,4 +35,20 @@ a{
 li{
     font-size:20px;
     background-color:rgb(125, 161, 125);
+}
+
+img{
+    width:600px;
+    height:auto;
+    max-height:400px;
+}
+
+h2, h3, h4{
+    color:#d34343;
+    background-color: #ffffff;
+} 
+
+p{
+    color:white;
+    font-size:large;
 }
